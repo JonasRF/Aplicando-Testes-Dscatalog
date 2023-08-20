@@ -7,9 +7,10 @@
 ### Exercícios: testes de repository
 
 Favor implementar os seguintes testes em ProductRepositoryTests:
-- findById deveria 
---- retornar um Optional<Product> não vazio quando o id existir
+- findById deveria
+- 
+-- retornar um Optional<Product> não vazio quando o id existir
   
---- retornar um Optional<Product> vazio quando o id não existir
+-- retornar um Optional<Product> vazio quando o id não existir
 
 
