@@ -28,7 +28,7 @@ public class ProductRepositoryTests {
     }
 
     @Test
-    public void findByIdShouldReturnOptionalProductNullWhenIdExists(){
+    public void findByIdShouldReturnOptionalProductNullWhenIdNotExists(){
 
         Optional<Product> result =  repository.findById(nonExistingId);
 
