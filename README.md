@@ -37,6 +37,34 @@ Processo básico:
 2. Implemente o código necessário para que o teste passe
 3. Refatore o código conforme necessidade
 
+## Boas práticas e padrões
+
+### Nomenclatura de um teste
+- <AÇÃO> should <EFEITO> [when <CENÁRIO>]
+
+## Padrão AAA
+- Arrange: instancie os objetos necessários
+- Act: execute as ações necessárias
+- Assert: declare o que deveria acontecer (resultado esperado)
+
+### Princípio da inversão de dependência (SOLID)
+
+- Se uma classe A depende de uma instância da classe B, não tem como testar a classe A isoladamente. Na verdade nem seria um teste unitário.
+- A inversão de controle ajuda na testabilidade, e garante o isolamento da unidade a ser testada.
+
+## Independência / isolamento
+- Um teste não pode depender de outros testes, nem da ordem de execução
+
+## Cenário único
+- O teste deve ter uma lógica simples, linear
+- O teste deve testar apenas um cenário
+- Não use condicionais e loops
+
+## Previsibilidade
+- O resultado de um teste deve ser sempre o mesmo para os mesmos dados
+- Não faça o resultado depender de coisas que variam, tais como timestamp atual e valores aleatórios.
+
+
 
 ![image](https://github.com/JonasRF/Aplicando-Testes-Dscatalog/assets/77034798/62467183-b00d-4976-956b-ca7a8fb3f0e6)
 
