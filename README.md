@@ -84,10 +84,10 @@ Exercícios: testes de unidade com Mockito
 Favor implementar os seguintes testes em ProductServiceTests:
 
 - findById deveria 
- - retornar um ProductDTO quando o id existir
- - lançar ResourceNotFoundException quando o id não existir
+  - retornar um ProductDTO quando o id existir
+  - lançar ResourceNotFoundException quando o id não existir
 - update deveria (dica: você vai ter que simular o comportamento do getOne)
- - retornar um ProductDTO quando o id existir
- - lançar uma ResourceNotFoundException quando o id não existir
+  - retornar um ProductDTO quando o id existir
+  - lançar uma ResourceNotFoundException quando o id não existir
 
 
