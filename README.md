@@ -86,7 +86,7 @@ Favor implementar os seguintes testes em ProductServiceTests:
 - findById deveria 
   - retornar um ProductDTO quando o id existir
   - lançar ResourceNotFoundException quando o id não existir
-- update deveria (dica: você vai ter que simular o comportamento do getOne)
+- update deveria (dica: você vai ter que simular o comportamento do getReferencyById)
   - retornar um ProductDTO quando o id existir
   - lançar uma ResourceNotFoundException quando o id não existir
 
